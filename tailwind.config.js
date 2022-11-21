@@ -18,6 +18,8 @@ module.exports = {
       c4: '#15436F',
       c5: '#FF1577',
       c6: '#ffffff',
+      c7: '#D1D1D1',
+      c8: '#FDC500',
     },
   },
   plugins: [],
