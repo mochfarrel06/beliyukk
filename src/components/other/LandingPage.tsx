@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import Homeimg from '../../assets/homeimg.png';
-
-interface IProduct {
-  name: string;
-  total: number;
-}
+import IProduct from '../interfaces/IProduct';
 
 const initialProduct: IProduct[] = [
   {
