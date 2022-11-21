@@ -1,7 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Homeimg from '../../assets/homeimg.png';
 
-const LandingPage = () => {
+interface IProduct {
+  name: string;
+  total: number;
+}
+
+const initialProduct: IProduct[] = [
+  {
+    name: 'Man',
+    total: 200,
+  },
+  {
+    name: 'Woman',
+    total: 300,
+  },
+  {
+    name: 'Kids',
+    total: 100,
+  },
+];
+
+const LandingPage: React.FC = () => {
+  const [products, setProduct] = useState(initialProduct);
+
   return (
     <>
       <div className="w-full">
@@ -19,18 +41,14 @@ const LandingPage = () => {
                 <div className="bg-c5 w-[177px] h-[84px] rounded-t-[20px] rounded-bl-[20px] absolute -top-8 -left-20 flex justify-center items-center text-md font-semibold text-c6">Product Origin</div>
                 <div className=" bg-cover w-[173px] h-[400px] absolute -top-[69.1px] left-40" style={{ backgroundImage: `url(${Homeimg})` }}></div>
                 <div className="absolute flex flex-col gap-6 right-14 top-10">
-                  <div className="flex flex-col">
-                    <h5 className="text-c6 text-2xl font-semibold">200+</h5>
-                    <p className="text-c6 text-lg font-normal">Product</p>
-                  </div>
-                  <div className="flex flex-col">
-                    <h5 className="text-c6 text-2xl font-semibold">200+</h5>
-                    <p className="text-c6 text-lg font-normal">Product</p>
-                  </div>
-                  <div className="flex flex-col">
-                    <h5 className="text-c6 text-2xl font-semibold">200+</h5>
-                    <p className="text-c6 text-lg font-normal">Product</p>
-                  </div>
+                  {products.map((product) => {
+                    return (
+                      <div className="flex flex-col">
+                        <h5 className="text-c6 text-2xl font-semibold">{product.total}+</h5>
+                        <p className="text-c6 text-lg font-normal">{product.name}</p>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>
