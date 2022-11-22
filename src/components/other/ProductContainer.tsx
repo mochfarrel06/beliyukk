@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonSearch from '../button/ButtonSearch';
+import CardNew from '../card/CardNew';
 import CardProduct from '../card/CardProduct';
 
 const ProductContainer: React.FC = () => {
@@ -19,6 +20,7 @@ const ProductContainer: React.FC = () => {
           </div>
           <div className="overflow-hidden flex gap-[88px] flex-wrap">
             <CardProduct />
+            <CardNew />
           </div>
         </div>
       </div>
