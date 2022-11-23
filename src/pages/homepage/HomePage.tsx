@@ -3,6 +3,7 @@ import NavbarSession from '../../components/navbar/NavbarSession';
 import LandingPage from '../../components/other/LandingPage';
 import NewsCollection from '../../components/other/NewsCollection';
 import ProductContainer from '../../components/other/ProductContainer';
+import SuggestionPage from '../../components/other/SuggestionPage';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <LandingPage />
       <ProductContainer />
       <NewsCollection />
+      <SuggestionPage />
     </React.Fragment>
   );
 };

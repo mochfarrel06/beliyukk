@@ -6,7 +6,7 @@ import fire from '../../assets/fire.png';
 const NewsCollection = () => {
   return (
     <>
-      <div className="w-full mb-40">
+      <div className="w-full">
         <div className="container w-full mx-auto py-[60px] flex flex-col gap-[60px]">
           <div className="text-[30px] font-medium font-reemkufi">New Collections</div>
           <div className="w-full bg-c1 h-[456px] rounded-tl-[20px] overflow-hidden rounded-tr-[70px] rounded-bl-[100px] rounded-br-[20px]">
