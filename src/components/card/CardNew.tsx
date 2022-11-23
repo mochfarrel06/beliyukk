@@ -20,11 +20,6 @@ const INewscard: NewsProduct[] = [
     title: 'Baju Putih',
     price: 30,
   },
-  {
-    image: Bajuorange,
-    title: 'Baju Orange',
-    price: 30,
-  },
 ];
 
 const CardNew: React.FC = () => {
