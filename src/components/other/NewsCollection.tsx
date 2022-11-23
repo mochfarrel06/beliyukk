@@ -1,5 +1,4 @@
 import React from 'react';
-import { AiFillFire } from 'react-icons/ai';
 import CardNew from '../card/CardNew';
 import CardNew2 from '../card/CardNewLarge';
 import fire from '../../assets/fire.png';

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Bajuorange from '../../assets/bajuorange.png';
 import Bajuputih from '../../assets/bajuputih.png';
 import Jakethitam from '../../assets/jakethitam.png';
 
