@@ -3,7 +3,7 @@ import React from 'react';
 const SuggestionPage = () => {
   return (
     <>
-      <div className="w-full mb-40">
+      <div className="w-full">
         <div className="container w-full mx-auto py-[60px] flex flex-col gap-10">
           <div className="text-[30px] font-medium font-reemkufi">Product suggestions</div>
           <div className="flex">

@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterSession from '../../components/footer/FooterSession';
 import NavbarSession from '../../components/navbar/NavbarSession';
 import LandingPage from '../../components/other/LandingPage';
 import NewsCollection from '../../components/other/NewsCollection';
@@ -13,6 +14,7 @@ const HomePage = () => {
       <ProductContainer />
       <NewsCollection />
       <SuggestionPage />
+      <FooterSession />
     </React.Fragment>
   );
 };
