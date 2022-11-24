@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineWhatsApp } from 'react-icons/ai';
 
 const FooterSession = () => {
   return (
@@ -16,10 +16,10 @@ const FooterSession = () => {
                 <AiOutlineInstagram className="text-[22px] text-c6" />
               </div>
               <div className="w-[42px] h-[42px] bg-c1 rounded-full flex justify-center items-center">
-                <AiOutlineInstagram className="text-[22px] text-c6" />
+                <AiOutlineTwitter className="text-[22px] text-c6" />
               </div>
               <div className="w-[42px] h-[42px] bg-c1 rounded-full flex justify-center items-center">
-                <AiOutlineInstagram className="text-[22px] text-c6" />
+                <AiOutlineWhatsApp className="text-[22px] text-c6" />
               </div>
             </div>
           </div>
