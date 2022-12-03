@@ -1,6 +1,5 @@
 import React from 'react';
 import FooterSession from '../../components/footer/FooterSession';
-import NavbarSession from '../../components/navbar/NavbarSession';
 import NavbarSession2 from '../../components/navbar/NavbarSession2';
 import LandingPage from '../../components/other/LandingPage';
 import NewsCollection from '../../components/other/NewsCollection';
