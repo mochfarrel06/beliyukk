@@ -52,7 +52,7 @@ const NavbarSession2 = () => {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <div className="md:hidden max-w-full" id="mobile-menu">
+          <div className="md:hidden max-w-full absolute top-0 right-0 left-0 bg-c6 shadow-md" id="mobile-menu">
             <div className="px-2 pt-2 pb-3 container sm:px-3">
               <button className="text-c4 block px-3 py-2 rounded-md text-base font-medium">Home</button>
               <button className="text-c4 block px-3 py-2 rounded-md text-base font-medium">Product</button>
