@@ -12,8 +12,8 @@ const HomePage = () => {
       <NavbarSession2 />
       {/* <NavbarSession title1="Beli" title2="Yukk" menu1="Home" menu2="Product" menu3="News" menu4="Contact" sesion1="Sign In" sesion2="Sign Up" /> */}
       <LandingPage />
-      {/* <ProductContainer />
-      <NewsCollection />
+      <ProductContainer />
+      {/* <NewsCollection />
       <SuggestionPage />
       <FooterSession /> */}
     </React.Fragment>
