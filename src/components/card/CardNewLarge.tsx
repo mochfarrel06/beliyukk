@@ -25,7 +25,7 @@ const CardNew2: React.FC = () => {
       {/* 21px 37px */}
       {newscard2.map((news2) => {
         return (
-          <div className="overflow-hidden bg-c5 w-[248px] h-[409px] px-[37px] py-[21px] flex flex-col items-center justify-center gap-7 rounded-tr-[100px] rounded-tl-[20px]">
+          <div className="overflow-hidden bg-c5 px-[37px] py-[21px] flex flex-col items-center justify-center gap-7 rounded-tr-[100px] rounded-tl-[20px]">
             <div className=" bg-cover w-[174px] h-[149px]" style={{ backgroundImage: `url(${news2.image})` }}></div>
             <h4 className="text-c6 font-medium text-xl">{news2.title}</h4>
             <p className="text-c6 font-normal text-xl">${news2.price}</p>
