@@ -73,10 +73,10 @@ const CardProduct: React.FC = () => {
     <>
       {card.map((cards) => {
         return (
-          <div className="px-[40px] py-[18px] border border-c7 w-[254px] rounded-md">
+          <div className="py-5 px-10 border border-c7 rounded-md mb-5">
             <div className="w-full flex flex-col items-center justify-center gap-[26px]">
-              <div className=" bg-cover w-[97px] h-[127px]" style={{ backgroundImage: `url(${cards.image})` }}></div>
-              <h4 className="text-c4 font-medium text-xl">{cards.title}</h4>
+              <div className=" bg-cover w-[87px] h-[117px]" style={{ backgroundImage: `url(${cards.image})` }}></div>
+              <h4 className="text-c4 font-medium text-lg">{cards.title}</h4>
               <p className="text-center text-sm font-normal">{cards.desc}</p>
               <div className="text-c4 font-medium text-2xl">${cards.price}</div>
               <div className="flex gap-[10px]">
