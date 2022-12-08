@@ -1,6 +1,5 @@
 import React from 'react';
 import ButtonSearchSmall from '../button/ButtonSearchSmall';
-import CardNew from '../card/CardNew';
 import CardProduct from '../card/CardProduct';
 
 const ProductContainer: React.FC = () => {

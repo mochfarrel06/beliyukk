@@ -14,8 +14,8 @@ const HomePage = () => {
       <LandingPage />
       <ProductContainer />
       <NewsCollection />
-      {/* <SuggestionPage />
-      <FooterSession /> */}
+      <SuggestionPage />
+      {/* <FooterSession /> */}
     </React.Fragment>
   );
 };
