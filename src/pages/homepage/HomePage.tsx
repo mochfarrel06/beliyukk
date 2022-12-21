@@ -15,7 +15,7 @@ const HomePage = () => {
       <ProductContainer />
       <NewsCollection />
       <SuggestionPage />
-      {/* <FooterSession /> */}
+      <FooterSession />
     </React.Fragment>
   );
 };
